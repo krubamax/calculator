@@ -37,4 +37,4 @@ output_number.pack(pady=10)
 
 window.mainloop()
 
-#คนมีฟงงงง
+#คนเจน X บูรี่เด็กซ์ เจน Z 
