@@ -36,3 +36,5 @@ output_number = tk.Label(window, text="", font=("Arial", 16), bg="lightblue")
 output_number.pack(pady=10)
 
 window.mainloop()
+
+#คนมีฟงงงง
