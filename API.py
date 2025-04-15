@@ -31,8 +31,6 @@ import tkinter as tk
 
 
 url = "https://api.open-meteo.com/v1/forecast?latitude=14.904&longitude=105.047&current_weather=true"
-
-# ฟังก์ชันดึงข้อมูลจาก API แล้วแสดงบน Label
 def show_weather():
     response = requests.get(url)
     data = response.json()
@@ -57,5 +55,4 @@ water_label1.pack(pady=10)
 btn_check = tk.Button(windows, text="ดูอุณหภูมิ", font=("Arial", 14), command=show_weather, bg="lightgreen")
 btn_check.pack(pady=20)
 
-# เริ่มทำงานหน้าต่าง
 windows.mainloop()
